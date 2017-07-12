@@ -7,7 +7,7 @@
     <title></title>
     <style type="text/css">
         .auto-style1 {
-            width: 86%;
+            width: 91%;
         }
         .auto-style2 {
             width: 134px;
@@ -97,9 +97,9 @@
             </tr>
             <tr>
                 <td colspan="6" style="text-align: center">
-                    <asp:Button ID="Button1" runat="server" Text="Submit" />
-                    <asp:Button ID="Button2" runat="server" Text="Update" />
-                    <asp:Button ID="Button3" runat="server" Text="Delete" />
+                    <asp:Button ID="btnSubmit" runat="server" Text="Submit" />
+                    <asp:Button ID="btnUpdate" runat="server" Text="Update" />
+                    <asp:Button ID="btnDelete" runat="server" Text="Delete" />
                 </td>
             </tr>
             <tr>
