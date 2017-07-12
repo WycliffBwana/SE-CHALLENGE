@@ -77,7 +77,7 @@
                 </td>
                 <td class="auto-style6">Year Of Study:</td>
                 <td>
-                    <asp:DropDownList ID="DropDownList2" runat="server">
+                    <asp:DropDownList ID="DropDownList2" runat="server" Height="16px">
                     </asp:DropDownList>
                 </td>
             </tr>
@@ -97,7 +97,7 @@
             </tr>
             <tr>
                 <td colspan="6" style="text-align: center">
-                    <asp:Button ID="btnSubmit" runat="server" Text="Submit" />
+                    <asp:Button ID="btnSubmit" runat="server" OnClick="btnSubmit_Click" Text="Submit" />
                     <asp:Button ID="btnUpdate" runat="server" Text="Update" />
                     <asp:Button ID="btnDelete" runat="server" Text="Delete" />
                 </td>
